@@ -49,8 +49,14 @@
         </section>
         <section class="cabeçalho__container" id="icons">
             <a href="#"><img id="icone__favoritos" src="img/Favoritos.png" alt="meus Favoritos"></a>
-            <a href="#"><img src="img/Sacola.png" alt="minha Sacola"></a>
-            <a href="#"><img src="img/Usuario.png" alt="meu perfil"></a>
+            <section class="icons__text">
+                <a href="#"><img src="img/Sacola.png" alt="minha Sacola"></a>
+                <p class="icons__text-paragrafo">Minha Sacola</p>
+            </section>
+            <section class="icons__text">
+                <a href="#"><img src="img/Usuario.png" alt="meu perfil"></a>
+                <p class="icons__text-paragrafo">Meu Perfil</p>
+            </section>
         </section>
     </header>
 
@@ -62,85 +68,89 @@
         
     <section class="carrosel">
         <h2 class="carrosel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        <section class="carrosel__conteudo">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Capa-ApacheKafka"></div>
-                <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Capa-Arquitetura"></div>
-                <div class="swiper-slide"><img src="img/Construct2.svg" alt="Capa Construct2"></div>
-                <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Capa MetricasAgeis"></div>
-                <div class="swiper-slide"><img src="img/Javascript.svg" alt="Capa JavaScript"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Capa-ApacheKafka"></div>
+                    <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Capa-Arquitetura"></div>
+                    <div class="swiper-slide"><img src="img/Construct2.svg" alt="Capa Construct2"></div>
+                    <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Capa MetricasAgeis"></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt="Capa JavaScript"></div>
+                </div>
+        
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-    
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <div class="carrosel__card">
-            <!-- Section contem textos e imagem do card -->
-            <section class="card__superior">
-                <section class="card__content__text">
-                    <p class="card__intro">Talvez você também se interesse por...</p>
-                    <h2 class="card__titulo">Angular 11 e Firebase</h2>
-                    <p class="card__paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                </section>    
-                <img src="img/Perfil-escritora 2.svg" alt="imagem do card">
-            </section>
-            <!-- Section contem icones e botões do card -->
-            <section class="card__inferior">
-                <section class="card__content__icons">
-                    <img src="img/Favoritos.png" alt="favoritos">
-                    <img src="img/Sacola.png" alt="carrinho de compras">
+            <div class="carrosel__card">
+                <!-- Section contem textos e imagem do card -->
+                <section class="card__superior">
+                    <section class="card__content__text">
+                        <p class="card__intro">Talvez você também se interesse por...</p>
+                        <h2 class="card__titulo">Angular 11 e Firebase</h2>
+                        <p class="card__paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </section>    
+                    <img src="img/Perfil-escritora 2.svg" alt="imagem do card">
                 </section>
-                <a class="card__button" href="#">Saiba mais</a>
-            </section>
-        </div>
+                <!-- Section contem icones e botões do card -->
+                <section class="card__inferior">
+                    <section class="card__content__icons">
+                        <img src="img/Favoritos.png" alt="favoritos">
+                        <img src="img/Sacola.png" alt="carrinho de compras">
+                    </section>
+                    <a class="card__button" href="#">Saiba mais</a>
+                </section>
+            </div>
+        </section>
     </section>
 
     <section class="carrosel">
         <h2 class="carrosel__titulo">MAIS VENDIDOS</h2>
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        <section class="carrosel__conteudo">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Capa-ApacheKafka"></div>
-                <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Capa-Arquitetura"></div>
-                <div class="swiper-slide"><img src="img/Construct2.svg" alt="Capa Construct2"></div>
-                <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Capa MetricasAgeis"></div>
-                <div class="swiper-slide"><img src="img/Javascript.svg" alt="Capa JavaScript"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Capa-ApacheKafka"></div>
+                    <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Capa-Arquitetura"></div>
+                    <div class="swiper-slide"><img src="img/Construct2.svg" alt="Capa Construct2"></div>
+                    <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Capa MetricasAgeis"></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt="Capa JavaScript"></div>
+                </div>
+        
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-    
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <div class="carrosel__card">
-            <!-- Section contem textos e imagem do card -->
-            <section class="card__superior">
-                <section class="card__content__text">
-                    <img class="card__estrelinha" src="img/Estrelinhas.svg" alt="icone estrelinhas">
-                    <p class="card__intro">Autora do Mês</p>
-                    <h2 class="card__titulo">Juliana Agarikov</h2>
-                    <p class="card__paragrafo">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-                </section>    
-                <img src="img/Perfil-escritora 1.svg" alt="imagem de perfil do card">
-            </section>
-            <!-- Section contem icones e botões do card -->
-            <section class="card__inferior">
-                <section class="card__content__icons">
-                    <img src="img/Favoritos.png" alt="icone favoritos">
-                    <img src="img/Sacola.png" alt="icone carrinho de compras">
+            <div class="carrosel__card">
+                <!-- Section contem textos e imagem do card -->
+                <section class="card__superior">
+                    <section class="card__content__text">
+                        <img class="card__estrelinha" src="img/Estrelinhas.svg" alt="icone estrelinhas">
+                        <p class="card__intro">Autora do Mês</p>
+                        <h2 class="card__titulo">Juliana Agarikov</h2>
+                        <p class="card__paragrafo">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                    </section>    
+                    <img src="img/Perfil-escritora 1.svg" alt="imagem de perfil do card">
                 </section>
-                <a class="card__button" href="#">Saiba mais</a>
-            </section>
-        </div>
+                <!-- Section contem icones e botões do card -->
+                <section class="card__inferior">
+                    <section class="card__content__icons">
+                        <img src="img/Favoritos.png" alt="icone favoritos">
+                        <img src="img/Sacola.png" alt="icone carrinho de compras">
+                    </section>
+                    <a class="card__button" href="#">Saiba mais</a>
+                </section>
+            </div>
+        </section>
     </section>
 
     <section class="topicos">
