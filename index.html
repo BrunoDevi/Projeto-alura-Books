@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="index.css">
     <title>Alura Book's</title>
@@ -37,9 +38,17 @@
                 </li>
             </ul>
             <img src="img/Logo.png" alt="logo Alura Books">
+            <h2 class="cabeçalho__logo-text"><span class="negrito">Alura</span>Books</h2>
         </section>
-        <section class="cabeçalho__container">
-            <a href="#"><img src="img/Favoritos.png" alt="meus Favoritos"></a>
+        <section class="cabeçalho__menu-escrito">
+            <label for="menu">
+                <a class="cabeçalho__menu-link">Categorias</a>
+            </label>
+            <a href="#" class="cabeçalho__menu-link">Favoritos</a>
+            <a href="#" class="cabeçalho__menu-link">Minha Estante</a>
+        </section>
+        <section class="cabeçalho__container" id="icons">
+            <a href="#"><img id="icone__favoritos" src="img/Favoritos.png" alt="meus Favoritos"></a>
             <a href="#"><img src="img/Sacola.png" alt="minha Sacola"></a>
             <a href="#"><img src="img/Usuario.png" alt="meu perfil"></a>
         </section>

@@ -2,14 +2,16 @@
     background-color: var(--cor-texto);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: relative;
+    font-family: var(--fonte-principal);
 }
 
 .cabeçalho__container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
     align-items: center;
+    gap: 1rem;
     margin: 0rem 1rem;
 }
 
@@ -21,14 +23,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.lista-menu{
-    display: none;
-    position: absolute;
-    top: 96%;
-    left: 1rem;
-    width: 60vw;
 }
 
 .container__botao{
@@ -43,6 +37,14 @@
     display: block;
 }
 
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 96%;
+    left: 1rem;
+    width: 60vw;
+}
+
 .lista-menu__titulo, .lista-menu__item{
     padding: 1rem;
     background-color: var(--cor-texto);
@@ -55,7 +57,6 @@
 
 .lista-menu__item{
     text-transform: uppercase;
-    font-family: var(--fonte-principal);
 }
 
 .lista-menu__item:hover{
@@ -67,4 +68,58 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-} 
+}
+
+.cabeçalho__menu-escrito{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: none;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cabeçalho__logo-text{
+    color: #000;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font-weight: 400;
+    display: none;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px){
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
+    .cabeçalho{
+        padding: 1rem;
+    }
+    .cabeçalho__container{
+        align-items: flex-end;
+    }
+    #icone__favoritos{
+        display: none;
+    }
+    #icons{
+        gap: 2.5rem;
+    }
+    .lista-menu{
+        top: 96%;
+        left: 22rem;
+        width: 20vw;
+    }
+    .lista-menu__titulo{
+        display: none;
+    }
+    .cabeçalho__menu-escrito{
+        display: flex;
+    }
+    .cabeçalho__logo-text{
+        display: block;
+    }
+}
