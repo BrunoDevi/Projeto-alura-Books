@@ -117,6 +117,11 @@
   }
   .swiper {
     width: 70%;
+    position: relative;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
   }
   .carrosel__card {
     width: 588px;
@@ -136,8 +141,7 @@
   .card__paragrafo {
     font-size: 1rem;
   }
-  .swiper-button-prev,
-  .swiper-button-next {
-    display: block;
+  .swiper-pagination {
+    margin: 1rem 0;
   }
 }
